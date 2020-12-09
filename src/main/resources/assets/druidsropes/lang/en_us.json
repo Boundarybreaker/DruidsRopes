@@ -1,0 +1,13 @@
+{
+  "item.druidsropes.hold_shift": "Hold [SHIFT] for more info.",
+  "item.druidsropes.knife": "Knife",
+  "item.druidsropes.knife.description1": "Used to configure rope blocks.",
+  "block.druidsropes.ceramic_lantern": "Ceramic Lantern",
+  "block.druidsropes.rope": "Rope",
+  "block.druidsropes.oak_small_beam": "Small Oak Beam",
+  "block.druidsropes.spruce_small_beam": "Small Spruce Beam",
+  "block.druidsropes.birch_small_beam": "Small Birch Beam",
+  "block.druidsropes.jungle_small_beam": "Small Jungle Beam",
+  "block.druidsropes.acacia_small_beam": "Small Acacia Beam",
+  "block.druidsropes.dark_oak_small_beam": "Small Dark Oak Beam"
+}

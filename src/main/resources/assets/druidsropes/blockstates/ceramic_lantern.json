@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "hanging=true,roped=true,waterlogged=false":
+		[ { "model": "druidsropes:block/rope_ceramic_lantern_1" },
+		{ "model": "druidsropes:block/rope_ceramic_lantern_2" } ],
+		"hanging=true,roped=false,waterlogged=false":
+		[ { "model": "druidsropes:block/hanging_ceramic_lantern" },
+		{ "model": "druidsropes:block/hanging_ceramic_lantern", "y": 90 } ],
+		"hanging=false,waterlogged=false":
+		[ { "model": "druidsropes:block/ceramic_lantern" },
+		{ "model": "druidsropes:block/ceramic_lantern", "y": 90 } ],
+		"hanging=true,roped=true,waterlogged=true":
+		[ { "model": "druidsropes:block/rope_ceramic_lantern_1_wl" },
+		{ "model": "druidsropes:block/rope_ceramic_lantern_2_wl" } ],
+		"hanging=true,roped=false,waterlogged=true":
+		[ { "model": "druidsropes:block/hanging_ceramic_lantern_wl" },
+		{ "model": "druidsropes:block/hanging_ceramic_lantern_wl", "y": 90 } ],
+		"hanging=false,waterlogged=true":
+		[ { "model": "druidsropes:block/ceramic_lantern_wl" },
+		{ "model": "druidsropes:block/ceramic_lantern_wl", "y": 90 } ]
+  }
+}

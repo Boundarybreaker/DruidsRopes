@@ -1,28 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "starter",
+  "id": "druidsropes",
   "version": "${version}",
 
-  "name": "Fabric Starter",
-  "icon": "assets/starter/icon.png",
-  "description": "Template for starting out Fabric mods",
-  "license": "MIT",
+  "name": "Druids' Ropes",
+  "icon": "assets/druidsropes/icon.png",
+  "description": "Literally Just The Ropes From Druidcraft (and also small beams)",
+  "license": "LGPL v2.1",
   "contact": {
-    "sources": "https://github.com/CottonMC/FabricStarter"
+    "sources": "https://github.com/Boundarybreaker/DruidsRopes"
   },
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.cottonmc.starter.FabricStarter"
+      "space.bbkr.druidsropes.DruidsRopes"
+    ],
+    "client": [
+      "space.bbkr.druidsropes.DruidsRopesClient"
     ]
   },
-  "mixins": [
-    "mixins.starter.json"
-  ],
   "depends": {
-    "fabricloader": ">=0.4.0"
-  },
-  "custom": {
-    "modmenu:api": true
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
   }
 }
